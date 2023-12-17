@@ -1,0 +1,35 @@
+.th-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #47C070;
+    padding: 0px 15px;
+    height: 40px;
+}
+.th-navbar-list{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.th-navbar-link{
+    text-decoration: none;
+    color:#555;
+    font-size: 16px;
+    font-weight: 500;
+}
+.th-navbar-link:hover{
+    color: #060;
+}
+.th-signout{
+    background-color: #555;
+    color: white;
+    padding: 7px;
+    width:100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.th-signout:hover{
+    background-color: #222;
+    color: white;
+}

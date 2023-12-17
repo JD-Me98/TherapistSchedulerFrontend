@@ -1,0 +1,20 @@
+.category-box{
+    border: 1px solid gray;
+    width: 100%;
+    max-height:120px;
+    display: flex;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.category-box img{
+    height: 120px;
+    width: 200px;
+    margin-right: 2rem;
+    object-fit: cover;
+}
+.category-details{
+    margin-top: 10px;
+}
+.category-details p{
+    color: #888;
+}

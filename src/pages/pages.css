@@ -1,0 +1,35 @@
+.appointments-tbl{
+    border-collapse: collapse; /* Merge cell borders */
+    border-spacing: 0; /* Set space between cells to 0 */
+    
+}
+.appointments-tbl thead{
+    background-color: #47c070;
+   
+}
+.appointments-tbl thead th{
+    padding:5px;
+    color: #f7f7f7;
+}
+.appointments-tbl td{
+    padding:5px;
+}
+.appointments-tbl tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+  .appointments-tbl tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+.appointments-container{
+    width:95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tbl-action{
+    display: flex;
+    gap: 5px;
+}
+.tbl-action button{
+    cursor: pointer;
+}
